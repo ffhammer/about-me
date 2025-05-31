@@ -6,115 +6,183 @@ favicon: images/favicon.ico
 version: 2
 
 # Personal info
-name: Brett Harris
-title: Senior Network System Administrator
-email: brett.h@email.co.uk
-website: www.github.com/sproogen/resume-theme
+name: Felix Hammer
+title: Data Science Student ETH
+email: ffhammer@uos.de
 
 # Dark Mode (true/false/never)
-darkmode: false
+darkmode: never
 
 # Social links
-twitter_username: facespics
-github_username:  sproogen
-# stackoverflow_username: "00000001"
-# dribbble_username: jekyll
-# facebook_username: jekyll
-# flickr_username: jekyll
-instagram_username: jameswgrant
-linkedin_username: jameswgrant
-# xing_username: jekyll
-# pinterest_username: jekyll
-youtube_username: globalmtb
-# googleplus_username: +jekyll
-# orcid_username: 0000-0000-0000-0000
-
-# Additional icon links
-additional_links:
-- title: itsgoingto.be
-  icon: fas fa-globe
-  url: https://www.itsgoingto.be
-# - title: another link
-#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
-#   url: Link url (eg. https://google.com)
-
-# Google Analytics and Tag Manager
-# Using more than one of these may cause issues with reporting
-# gtm: "GTM-0000000"
-# gtag: "UA-00000000-0"
-# google_analytics: "UA-00000000-0"
+github_username: ffhammer
 
 # About Section
-# about_title: About Me
 about_profile_image: images/profile.jpg
-about_content: | # this will include new lines to allow paragraphs
-  Hi, my name's Brett and I'm a senior network system administrator. As well as administrating systems I also have experience making software and web apps. I have worked at a number of companies gaining teamwork and leadership skills.
-
-  I am most skilled in: <mark>AWS</mark> and <mark>Eating Pizza</mark>
+about_content: |
+  Hi, my name's Felix and I'm a Data Science student.
+  Starting my Master's at ETH this September. Did quite a few student jobs so far, and gained solid experience.
+  Did my Bachelor in Cognitive Science in Osnabrück, where I fell in love with AI and data science.
+  My main drive is applying data science for ecology, like forest health monitoring.
+  Most skilled in: <mark>Python</mark>, <mark>Data Science</mark>, <mark>Backend</mark>.
 
 content:
-  - title: Projects # Title for the section
-    layout: list # Type of content section (list/text)
+  - title: Projects
+    layout: list
     content:
       - layout: top-middle
-        title: Super awesome project
-        link: github.com/sproogen
-        # link_text: Project Website
+        title: 🇨🇭 Zürich WG Tracker
         additional_links:
-          - title:  sproogen/modern-resume-theme
+          - title: github.com/ffhammer
             icon: fab fa-github
-            url: github.com/sproogen/modern-resume-theme
-          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-          #   icon: fab fa-github
-          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
-        quote: >
-          This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
-        description: | # this will include new lines to allow paragraphs
-          I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
+            url: https://github.com/ffhammer/wg-zimmer-tracker-zuerich
+        quote: Probably one of my projects I use and enjoy the most right now.
+        description: |
+          ![rooms](https://github.com/ffhammer/wg-zimmer-tracker-zuerich/raw/main/imgs/example.png)
+          To make the torturous task of finding a room in Zürich easier, I built this tool.
+          Fetches listings from wgzimmer.ch, woko.ch, and students.ch, adds geo API data like bike and public transport commute times to ETH.
+          Tracks and shows all offers.
+          Also generates WG applications based on your writing, with interactive improvements.
 
-  - title: Experience # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: left
-        title: The Boring Company
-        link: boringcompany.com
-        # link_text: boringcompany.com
-        sub_title: Senior Network System Administrator
-        caption: November 2017 - Present
-        quote: >
-          Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
-        description: | # this will include new lines to allow paragraphs
-            Every company needs its networks properly administered and The Boring Compay is no exception. Digging holes is hard and I play my part making sure the whole company stays connected. I lead a team of 5 people and enjoy driving the company to try new technologies.
+      - layout: top-middle
+        title: Language Teacher
+        additional_links:
+          - title: github.com/ffhammer
+            icon: fab fa-github
+            url: https://github.com/ffhammer/Language-Teacher
+        quote: Built out of necessity while learning Spanish.
+        description: |
+          ![language](https://github.com/ffhammer/Language-Teacher/blob/main/imgs/example.png?raw=true)
+          Wanted a simple Anki-like tool to generate new cards from images of notes and chats, so I created this.
+          Currently experimenting with personalized study plans and Duolingo-style exercises using agent systems.
 
-  - title: Education # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: left
-        title: Harvard University
-        caption: 2010 - 2013
-        sub_title: BSc Computer Science
-        quote: >
-          Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
-        description: | # this will include new lines to allow paragraphs
-          During my time at Harvard I learnt most of my key skills that have I have taken through my career such as teamwork and working to tight deadlines. I thouroughly enjoyed my time as university and learnt a lot about a healthy work life balance.
+      - layout: top-middle
+        title: Git Clone
+        additional_links:
+          - title: github.com/ffhammer
+            icon: fab fa-github
+            url: https://github.com/ffhammer/git_clone
+        description: |
+          During my gap year, I tried to get better at git by building my own git clone in Go (gvc).
+          Turns out, even after finishing, git still trips me up sometimes (:
 
-          I spent a lot of my free time as a committee member of the *Harvard Mountaineering Club* taking on roles such as *Trip Secretary* and *Vice-President*.
+      - layout: top-middle
+        title: Stress Addition Model
+        link: https://www.nature.com/articles/srep32965
+        additional_links:
+          - title: github.com/ffhammer
+            icon: fab fa-github
+            url: https://github.com/ffhammer/sam
+          - title: Project Page
+            icon: fab fa-github
+            url: https://ffhammer.github.io/sam/
+        description: |
+          ![SAM](https://ffhammer.github.io/sam/imgs/sam_predictions/2001_Liess-food,_UV_Cu_Food_1%25_+_UV.png)
+
+          As a research assistant at Helmholtz UFZ, I worked with Prof. Liess on his ecotoxicology models, coding and evaluating how environmental stress amplifies pesticide effects.
+          We're working on a new paper right now.
+
+      - layout: top-middle
+        title: Deep Pokis
+        link: https://github.com/ffhammer/deep_pokis
+        additional_links:
+          - title: github.com/ffhammer
+            icon: fab fa-github
+            url: https://github.com/ffhammer/deep_pokis
+        description: |
+          ![Pokis](images/pokis.png "Example Prediction")
+
+          For my deep learning course at NUS Lisbon, the prof organized an internal challenge to classify Pokémon types from a custom dataset.
+          I built my own dataset, trained a YOLO model for extraction, then fine-tuned deep CNNs and tried ArcFace.
+          Ended up with the best performance in the class.
+
+      - layout: top-middle
+        title: Cooking Assistant
+        link: https://github.com/kdmaciejewski/DataMining
+        additional_links:
+          - title: github.com/kdmaciejewski
+            icon: fab fa-github
+            url: https://github.com/kdmaciejewski/DataMining
+        description: |
+          ![Graph](images/cooking_graph.png)
+          ![Chat](images/cooking_chat.jpg)
+
+          Built a cooking assistant workflow for an NUS LLMs course.
+          Helps users find dishes and navigate recipes, with custom Llama models for conversation, BERT for intent, Elasticsearch for search, and CLIP for image embeddings.
+
+      - layout: top-middle
+        title: Deep Sudoku
+        link: https://github.com/ffhammer/DEEP_SUDOKU
+        additional_links:
+          - title: github.com/ffhammer
+            icon: fab fa-github
+            url: https://github.com/ffhammer/DEEP_SUDOKU
+        description: |
+          ![Sudoku](https://github.com/ffhammer/DEEP_SUDOKU/raw/master/imgs/animation.gif)
+
+          For our Deep RL course, we tackled the universal pain of Sudoku.
+           Used PPO and a custom environment; managed to solve easy Sudokus reliably.
+
+      - layout: top-middle
+        title: Bremen Big Data Challenge 2023
+        link: https://bbdc.csl.uni-bremen.de/
+        additional_links:
+          - title: github.com/ffhammer
+            icon: fab fa-github
+            url: https://github.com/ffhammer/BBDC-2023-Winning-Solution
+        description: |
+          Together with two friends, we won both tracks of BBDC 2023 using extra weather/salinity data, advanced preprocessing, and models like LightGBM and XGBoost.
+          Used autoencoders for weather features and lots of feature engineering.
+
+      - layout: top-middle
+        title: Happywhale - Whale and Dolphin ID
+        link: https://github.com/louiskhub/happywhale/
+        additional_links:
+          - title: louiskhub/happywhale
+            icon: fab fa-github
+            url: https://github.com/louiskhub/happywhale/
+        quote: |
+          Probably the project I learned most from.
+          At first, ConvNexts, Dynamic Margin ArcFace Loss, YOLO, etc. were intimidating.
+          Kept coming back, learning more each time.
+        description: |
+          ![Dolphins](https://raw.githubusercontent.com/louiskhub/happywhale/refs/heads/main/paper/figures/original_images.png)
+          My first real deep learning project—competed in the Kaggle challenge for whale/dolphin ID based on fins.
+          We finetuned CNNs with triplet loss, spent most time on preprocessing.
+
+      - layout: top-middle
+        title: Telegram Math Bot
+        link: https://github.com/ffhammer/TelegramFunctionPlotter
+        additional_links:
+          - title: ffhammer/TelegramFunctionPlotter
+            icon: fab fa-github
+            url: https://github.com/ffhammer/TelegramFunctionPlotter
+        description: |
+          ![Plot](https://raw.githubusercontent.com/ffhammer/TelegramFunctionPlotter/refs/heads/main/telebot/img/plot2dim.png)
+          My first real Python project: a Telegram bot to integrate, differentiate, and plot multi-dimensional functions.
+
+      - layout: top-middle
+        title: Advent of Code
+        link: https://adventofcode.com/
+        additional_links:
+          - title: github.com/ffhammer
+            icon: fab fa-github
+            url: https://github.com/ffhammer/aoc
+        quote: This was probably what sparked my infatuation with programming.
+        description: |
+          I fell in love with programming after my prof recommended Advent of Code in my first CS course.
+          Did the first year in C++ in Jupyter (no autocomplete, no error messages). Switched to Python after.
+          Don't always finish all 25 days, but still my December highlight every year!
 
   - title: A Little More About Me
     layout: text
-    content: | # this will include new lines to allow paragraphs
-      Alongside my interests in networks and software engineering some of my other interests and hobbies are:
-      - Rock climbing
-      - Gaming
-      - Knitting
-      - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
-
-      Look at this cool image  
-      ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
+    content: |
+      My other interests and hobbies:
+      - Jiu-Jitsu
+      - Hiking
+      - Snowboarding
 
 # Footer
 footer_show_references: true
-# references_title: References on request (Override references text)
 
 # Build settings
 remote_theme: sproogen/resume-theme
@@ -124,4 +192,4 @@ sass:
   style: compressed
 
 plugins:
- - jekyll-seo-tag
+  - jekyll-seo-tag
