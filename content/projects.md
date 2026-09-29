@@ -10,7 +10,7 @@ description: Projects by Felix Hammer: deep learning, agents & LLM systems, tool
 project: Stress Addition Model | card
 media: projects/sam_anim.mp4
 links: [GitHub](https://github.com/ffhammer/sam) · [Project Page](https://ffhammer.github.io/sam/) · [Original SAM paper (Liess et al., 2016)](https://www.nature.com/articles/srep32965)
-As a research assistant at Helmholtz UFZ, I worked with Prof. Liess on his ecotoxicology models, coding and evaluating how environmental stress amplifies pesticide effects.
+As a research assistant at Helmholtz UFZ, I worked with Prof. Liess on his ecotoxicology models, coding and evaluating how environmental stress amplifies pesticide effects. Here I also worked on LLM-based meta-studies of the ecotoxicology field.
 /project
 
 project: Happywhale - Whale and Dolphin ID | card
@@ -31,7 +31,7 @@ Used autoencoders for weather features and lots of feature engineering.
 project: Deep Pokis | card
 media: projects/deep-pokis_abstract.jpg
 links: [GitHub](https://github.com/ffhammer/deep_pokis)
-For my deep learning course at NUS Lisbon, the prof organized an internal challenge to classify Pokémon types from a custom dataset.
+For my deep learning course at NOVA Lisbon, the prof organized an internal challenge to classify Pokémon types from a custom dataset.
 I built my own dataset, trained a YOLO model for extraction, then fine-tuned deep CNNs and tried ArcFace.
 Ended up with the best performance in the class.
 /project
@@ -59,7 +59,7 @@ Built a multi-agent LLM system for an OECD data project (pro-bono, ~8-week progr
 project: Cooking Assistant | card
 media: projects/cooking_abstract.jpg
 links: [kdmaciejewski/DataMining](https://github.com/kdmaciejewski/DataMining)
-Built a cooking assistant workflow for an NUS LLMs course.
+Built a cooking assistant workflow for a NOVA Lisbon LLMs course.
 Helps users find dishes and navigate recipes, with custom Llama models for conversation, BERT for intent, Elasticsearch for search, and CLIP for image embeddings.
 /project
 
