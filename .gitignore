@@ -4,3 +4,23 @@
 _site
 Gemfile.lock
 *.code-workspace
+
+# Private sources and notes — never commit (public repo)
+/media/
+/wiki/
+*.tex
+*.pptx
+paper_in_review.txt
+design-drafts/
+.DS_Store
+__pycache__/
+.env
+tools/generated/
+tmp/
+content/.drafts/
+
+# Local working notes / tooling (not published)
+AGENT.md
+CLAUDE.md
+tickets/
+tools/
